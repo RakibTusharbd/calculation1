@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.card{
+    background-color: #FBBCED !important;
+    text-align: center !important;
+    padding: 10px;
+}
+
+.img-1{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 150px;
+    
+}
+
+.card1{
+    border: 1px solid gray;
+    padding: 17px;
+   border-radius: 10px;
+}
+
+.card2{
+    border: 1px solid gray;
+    
+}
+
+.malek{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.cards{
+    background-color: #69C7F0;
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<header class="container">
+  <div class="row mt-3">
+    <div class="col-lg-4">
+      <div class="Triangle">
+        <div class="card" style="width: 18rem;">
+          <div class="img-1"><img src="images/triangle.png" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Triangle</h5>
+            <div class="div-1">
+              <input id="input1" type="text"> cm
+              <br><br>
+              <input id="input2" type="text"> cm
+              <br><br>
+            </div>
+            <button onclick="cal()" class="btn btn-primary">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-4">
+      <div class="card1" style="width: 18rem;">
+        <div class="card-body text-center">
+          <div class="img-1 mb-3"><img src="images/rectangle.png" class="card-img-top" alt="..."></div>
+          <h5 class="card-title">Rectangle</h5>
+          <div class="div-1">
+            <input id="input3" type="text"> cm
+            <br><br>
+            <input id="input4" type="text"> cm
+            <br><br>
+          </div>
+          <button onclick="cal2()" href="#" class="btn btn-primary">Calculate</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card1" style="width: 18rem;">
+        <div class="card-body text-center">
+          <div class="img-1 mb-4"><img src="images/parallelogram.png" class="card-img-top" alt="..."></div>
+          <h5 class="card-title">Parallelogram</h5>
+          <div class="div-1">
+            <input id="input5" type="text"> cm
+            <br><br>
+            <input id="input6" type="text"> cm
+            <br><br>
+          </div>
+          <button onclick="cal3()" href="#" class="btn btn-primary">Calculate</button>
+        </div>
+      </div>
+  </div>
+  
+</header>
+
+<header class="container">
+  <div class="row mt-3">
+    <div class="col-lg-4">
+      <div class="rombus">
+        <div class="cards" style="width: 18rem;">
+          <div class="img-1"><img src="images/rhombus.png" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Rhombus</h5>
+            <div class="div-1">
+              <input type="text"> cm
+              <br><br>
+              <input type="text"> cm
+              <br><br>
+            </div>
+            <a href="#" class="btn btn-primary">Calculate</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-4">
+      <div class="card1" style="width: 18rem;">
+        <div class="card-body text-center">
+          <div class="malek mb-3"><img src="images/pentagon.png" class="card-img-top" alt="..."></div>
+          <h5 class="card-title">Pentagon</h5>
+          <div class="div-1">
+            <input type="text"> cm
+            <br><br>
+            <input type="text"> cm
+            <br><br>
+          </div>
+          <a href="#" class="btn btn-primary">Calculate</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card1" style="width: 18rem;">
+        <div class="card-body text-center">
+          <div class="img-1 mb-2"><img src="images/ellipse.png" class="card-img-top" alt="..."></div>
+          <h5 class="card-title">Ellipse</h5>
+          <div class="div-1">
+            <input type="text"> cm
+            <br><br>
+            <input type="text"> cm
+            <br><br>
+          </div>
+          <a href="#" class="btn btn-primary">Calculate</a>
+        </div>
+      </div>
+  </div>
+</header>
+
+
+<div>
+  <p id="res"></p>
+  <input id="result" type="text">
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
